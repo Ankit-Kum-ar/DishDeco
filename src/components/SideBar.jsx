@@ -1,7 +1,11 @@
+import DekstopSideBar from "./DekstopSideBar"
+import MobileSideBar from "./MobileSideBar"
+
 const SideBar = () => {
   return (
     <div>
-      SideBar
+      <DekstopSideBar />
+      <MobileSideBar />
     </div>
   )
 }
