@@ -1,4 +1,4 @@
-import { House } from "lucide-react"
+import { Crown, House } from "lucide-react"
 import { Link } from "react-router-dom"
 
 const DekstopSideBar = () => {
@@ -13,6 +13,10 @@ const DekstopSideBar = () => {
             <Link to={"/"} className="flex gap-3">
                 <House />
                 <span className="font-bold hidden md:block text-white">Home</span>
+            </Link>
+            <Link to={"/favorites"} className="flex gap-3">
+              <Crown />
+              <span className="font-bold hidden md:block text-white">Favourites</span>
             </Link>
         </ul>
       </div>
